@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336BE68F1F7407CB00D7B931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BE68E1F7407CB00D7B931 /* AppDelegate.swift */; };
+		336BE6911F7407CB00D7B931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BE6901F7407CB00D7B931 /* ViewController.swift */; };
+		336BE6941F7407CB00D7B931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336BE6921F7407CB00D7B931 /* Main.storyboard */; };
+		336BE6961F7407CB00D7B931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336BE6951F7407CB00D7B931 /* Assets.xcassets */; };
+		336BE6991F7407CB00D7B931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336BE6971F7407CB00D7B931 /* LaunchScreen.storyboard */; };
+		336BE6A41F7407CC00D7B931 /* giethubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BE6A31F7407CC00D7B931 /* giethubTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336BE6A01F7407CC00D7B931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336BE6831F7407CB00D7B931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336BE68A1F7407CB00D7B931;
+			remoteInfo = giethub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336BE68B1F7407CB00D7B931 /* giethub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giethub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336BE68E1F7407CB00D7B931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		336BE6901F7407CB00D7B931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		336BE6931F7407CB00D7B931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		336BE6951F7407CB00D7B931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336BE6981F7407CB00D7B931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		336BE69A1F7407CB00D7B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336BE69F1F7407CC00D7B931 /* giethubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giethubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336BE6A31F7407CC00D7B931 /* giethubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giethubTests.swift; sourceTree = "<group>"; };
+		336BE6A51F7407CC00D7B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336BE6881F7407CB00D7B931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336BE69C1F7407CC00D7B931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336BE6821F7407CB00D7B931 = {
+			isa = PBXGroup;
+			children = (
+				336BE68D1F7407CB00D7B931 /* giethub */,
+				336BE6A21F7407CC00D7B931 /* giethubTests */,
+				336BE68C1F7407CB00D7B931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336BE68C1F7407CB00D7B931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336BE68B1F7407CB00D7B931 /* giethub.app */,
+				336BE69F1F7407CC00D7B931 /* giethubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336BE68D1F7407CB00D7B931 /* giethub */ = {
+			isa = PBXGroup;
+			children = (
+				336BE68E1F7407CB00D7B931 /* AppDelegate.swift */,
+				336BE6901F7407CB00D7B931 /* ViewController.swift */,
+				336BE6921F7407CB00D7B931 /* Main.storyboard */,
+				336BE6951F7407CB00D7B931 /* Assets.xcassets */,
+				336BE6971F7407CB00D7B931 /* LaunchScreen.storyboard */,
+				336BE69A1F7407CB00D7B931 /* Info.plist */,
+			);
+			path = giethub;
+			sourceTree = "<group>";
+		};
+		336BE6A21F7407CC00D7B931 /* giethubTests */ = {
+			isa = PBXGroup;
+			children = (
+				336BE6A31F7407CC00D7B931 /* giethubTests.swift */,
+				336BE6A51F7407CC00D7B931 /* Info.plist */,
+			);
+			path = giethubTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336BE68A1F7407CB00D7B931 /* giethub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336BE6A81F7407CC00D7B931 /* Build configuration list for PBXNativeTarget "giethub" */;
+			buildPhases = (
+				336BE6871F7407CB00D7B931 /* Sources */,
+				336BE6881F7407CB00D7B931 /* Frameworks */,
+				336BE6891F7407CB00D7B931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giethub;
+			productName = giethub;
+			productReference = 336BE68B1F7407CB00D7B931 /* giethub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336BE69E1F7407CC00D7B931 /* giethubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336BE6AB1F7407CC00D7B931 /* Build configuration list for PBXNativeTarget "giethubTests" */;
+			buildPhases = (
+				336BE69B1F7407CC00D7B931 /* Sources */,
+				336BE69C1F7407CC00D7B931 /* Frameworks */,
+				336BE69D1F7407CC00D7B931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336BE6A11F7407CC00D7B931 /* PBXTargetDependency */,
+			);
+			name = giethubTests;
+			productName = giethubTests;
+			productReference = 336BE69F1F7407CC00D7B931 /* giethubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336BE6831F7407CB00D7B931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "diyaa alkhateeb";
+				TargetAttributes = {
+					336BE68A1F7407CB00D7B931 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RCHARQQ5D8;
+						ProvisioningStyle = Automatic;
+					};
+					336BE69E1F7407CC00D7B931 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RCHARQQ5D8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336BE68A1F7407CB00D7B931;
+					};
+				};
+			};
+			buildConfigurationList = 336BE6861F7407CB00D7B931 /* Build configuration list for PBXProject "giethub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336BE6821F7407CB00D7B931;
+			productRefGroup = 336BE68C1F7407CB00D7B931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336BE68A1F7407CB00D7B931 /* giethub */,
+				336BE69E1F7407CC00D7B931 /* giethubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336BE6891F7407CB00D7B931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336BE6991F7407CB00D7B931 /* LaunchScreen.storyboard in Resources */,
+				336BE6961F7407CB00D7B931 /* Assets.xcassets in Resources */,
+				336BE6941F7407CB00D7B931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336BE69D1F7407CC00D7B931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336BE6871F7407CB00D7B931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336BE6911F7407CB00D7B931 /* ViewController.swift in Sources */,
+				336BE68F1F7407CB00D7B931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336BE69B1F7407CC00D7B931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336BE6A41F7407CC00D7B931 /* giethubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336BE6A11F7407CC00D7B931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336BE68A1F7407CB00D7B931 /* giethub */;
+			targetProxy = 336BE6A01F7407CC00D7B931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		336BE6921F7407CB00D7B931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336BE6931F7407CB00D7B931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		336BE6971F7407CB00D7B931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336BE6981F7407CB00D7B931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336BE6A61F7407CC00D7B931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336BE6A71F7407CC00D7B931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336BE6A91F7407CC00D7B931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCHARQQ5D8;
+				INFOPLIST_FILE = giethub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diyaa-alkhateeb.giethub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		336BE6AA1F7407CC00D7B931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCHARQQ5D8;
+				INFOPLIST_FILE = giethub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diyaa-alkhateeb.giethub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		336BE6AC1F7407CC00D7B931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RCHARQQ5D8;
+				INFOPLIST_FILE = giethubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diyaa-alkhateeb.giethubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giethub.app/giethub";
+			};
+			name = Debug;
+		};
+		336BE6AD1F7407CC00D7B931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RCHARQQ5D8;
+				INFOPLIST_FILE = giethubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diyaa-alkhateeb.giethubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giethub.app/giethub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336BE6861F7407CB00D7B931 /* Build configuration list for PBXProject "giethub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336BE6A61F7407CC00D7B931 /* Debug */,
+				336BE6A71F7407CC00D7B931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336BE6A81F7407CC00D7B931 /* Build configuration list for PBXNativeTarget "giethub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336BE6A91F7407CC00D7B931 /* Debug */,
+				336BE6AA1F7407CC00D7B931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		336BE6AB1F7407CC00D7B931 /* Build configuration list for PBXNativeTarget "giethubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336BE6AC1F7407CC00D7B931 /* Debug */,
+				336BE6AD1F7407CC00D7B931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336BE6831F7407CB00D7B931 /* Project object */;
+}
